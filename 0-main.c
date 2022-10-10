@@ -1,4 +1,6 @@
-#include "main.h"
+#include "0-object_like_macro.h"
+
+#include "0-object_like_macro.h"
 
 #include <stdio.h>
 
@@ -6,7 +8,7 @@
 
 /**
  *
- *  * main - check the code 
+ *  * main - check the code
  *
  *   *
  *
@@ -18,18 +20,14 @@ int main(void)
 
 {
 
-	    int n;
+	    int s;
 
 
 
-	        n = 402;
+	        s = 98 + SIZE;
 
-		    printf("n=%d\n", n);
+		    printf("%d\n", s);
 
-		        reset_to_98(&n);
-
-			    printf("n=%d\n", n);
-
-			        return (0);
+		        return (0);
 
 }
