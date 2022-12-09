@@ -61,7 +61,7 @@ int f5(char *usrn, int len)
  */
 int f6(char *usrn)
 {
-	int ch;	
+	int ch;
 	int vch;
 
 	ch = vch = 0;
